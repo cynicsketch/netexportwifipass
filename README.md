@@ -21,7 +21,7 @@ Download the site https://luphoria.com/netlog-policy-password-tool offline, usin
 
 Explanation: This prevents the target machine from phoning home at the moment. Any logs that are created may still be forwarded later, but this can decrease transmitted information. The reason why WiFi isn't completely disabled is because it interferes with `chrome://net-export` and prevents it from stashing the WiFi password, which we want.
 
-4. Follow the steps here, up UNTIL the point where it directs the user to "Upload file.": https://luphoria.com/netlog-policy-password-tool
+2. Follow the steps here, up UNTIL the point where it directs the user to "Upload file.": https://luphoria.com/netlog-policy-password-tool
    
 Explanation: We don't want anything unusual in the search history of the target machine to be uncovered later. Internal pages like chrome://net-export don't get logged to the search history of Google Chrome, so by NOT visiting this page https://luphoria.com/netlog-policy-password-tool on the target machine we leave no search history behind to indicate that anything has ever happened.
 
