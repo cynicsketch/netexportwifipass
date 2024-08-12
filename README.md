@@ -27,7 +27,7 @@ Explanation: We don't want anything unusual in the search history of the target 
 
 3. Insert the operational USB drive into the target machine.
 4. Copy `chrome-net-export-log.json` to the USB drive. As soon as it finishes copying, eject the USB drive ASAP and disconnect it.
-5. Delete `chrome-net-export-log.json` from the target machine.
+5. Delete `chrome-net-export-log.json` from the target machine and empty the trash. The data is still there, but ChromeOS devices aren't known to read from underlying data/send it back at the moment. It may be found later, but not now.
 6. Without turning the WiFi back on, shut down the target machine. The target machine can now be "safely" (see Note) be powered back on, and if needed, set back to where it originally was.
 7. Exfiltrate with USB drive.
 8. Connect the USB drive to the attacker machine.
