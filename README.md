@@ -5,10 +5,11 @@ The information contained herein is for educational purposes only. The author di
 [FakeMurk](https://github.com/MercuryWorkshop/fakemurk) enables developer mode while still enrolled on a Chromebook, thereby also granting access to WiFi passwords, however, doing so [can readily alert sysadmins](https://github.com/MercuryWorkshop/fakemurk/issues/12) to suspicious activity. This guide presents a way to just get the WiFi password if it is the only thing of interest to red team, while not being as loud and hopefully not being detected until long after operation.
 
 ### Requirements:
-1. Access to https://luphoria.com/netlog-policy-password-tool on a separate, personallay controlled device; the attacker machine.
+1. Access to https://luphoria.com/netlog-policy-password-tool on a separate, personally controlled device; the attacker machine.
 2. A clean USB drive formatted as EXFAT. (for OPSEC purposes, it should be securely wiped before operation in case ChromeOS logs or forwards the contents of this drive)
 3. An enterprise enrolled Chromebook, where `chrome://net-export` is NOT blocked by enterprise policy. This Chromebook will be refered to as the "target machine" from here on out.
 4. Login credentials or being already logged into the target machine.
+5. WiFi password set through management by Google Admin.
 
 ### Note: 
 The procedure which follows does NOT prevent the creation of ALL potential evidence. It only minimizes evidence available and what evidence it does produce is less suspcious from an immediate perspective, making detection merely *unlikely* until long after exploitation. Vigilant log analysis may/may not be sufficient to uncover operations.
