@@ -2,7 +2,7 @@
 The information contained herein is for educational purposes only. The author disclaims any liability from any damages that may result from the user, proper or improper, of the information contained in this file.
 
 ### Purpose:
-[FakeMurk](https://github.com/MercuryWorkshop/fakemurk) enables developer mode while still enrolled on a Chromebook, thereby also granting access to WiFi passwords, however, doing so [can readily alert sysadmins](https://github.com/MercuryWorkshop/fakemurk/issues/12) to suspicious activity. This guide presents a way to just get the WiFi password if it is the only thing of interest to red team, while not being as loud and hopefully not being detected until long after operation.
+[FakeMurk](https://github.com/MercuryWorkshop/fakemurk) enables developer mode while still maintaining enterprise enrollment on a Chromebook, thereby also granting access to WiFi passwords, however, doing so [can readily alert sysadmins](https://github.com/MercuryWorkshop/fakemurk/issues/12) to suspicious activity. This guide presents a way to just get the WiFi password if it is the only thing of interest to red team, while not being as loud and hopefully not being detected until long after operation.
 
 ### Requirements:
 1. Access to https://luphoria.com/netlog-policy-password-tool on a separate, personally controlled device; the attacker machine.
